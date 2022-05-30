@@ -1,0 +1,71 @@
+body{
+    background: #000;
+    min-height: 100vh;
+
+}
+
+.grid{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid div{
+    background-color: rgb(60, 159, 172);
+    height: 30px;
+    width:10%;
+    margin: 10px;
+    border: 2px solid rgb(115, 192, 186);
+    box-shadow: 0 0.2rem 1rem rgb(235, 236, 143);
+}
+
+.box{
+    position: fixed;
+    top: 90%; left: 45%; right: 0;
+}
+
+#ball{
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    background: red;
+    border-radius: 50px;
+    left: 48%; top: 87%;
+}
+
+#paddle{
+    position: fixed;
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    border: 2px solid green;
+    box-shadow: 0 0.2rem 0.5rem yellow; 
+}
+
+#result{
+    height:  60%;
+    width: 80%;
+    background-color: rgb(172, 171, 136);
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 50px;
+    text-align: center;
+    columns: rgb(43, 196, 217);
+    font-family: 'Courier New', Courier, monospace;
+    display: none;
+   margin: 11% auto;
+}
+
+#btn{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-color: #fff;
+    font-size: 60px;
+    margin-top: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
